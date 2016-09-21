@@ -1,21 +1,21 @@
 ---
 layout: project
-title:  "YOUR PROJECT NAME"
-date:   2014-04-25 16:54:46
-author: Marcel Newman
+title:  "Apache Kafka C++ Async Client Library"
+date:   2016-05-25 16:54:46
+author: Ganesh Nikam
 categories:
 - project
-img: portfolio_02.jpg
+img: kafka.png
 thumb: thumb02.jpg
 carousel:
 - single01.jpg
 - single02.jpg
 - single03.jpg
-client: Wonder Corp.
-website: http://blacktie.co
+client: 
+website: https://github.com/GSLabDev/libasynckafkaclient
 ---
-####YOUR PROJECT NAME
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+####Apache Kafka
+Apache Kafka is publish-subscribe messaging rethought as a distributed commit log.
 
-####Our Proposal
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+####Our Contribution
+A C++ Client library implementation of the Apache Kafka protocol, containing both Producer and Consumer support. It is designed as single threaded async library using libevent. For Apache Kafka protocol message formatting it uses libkafka-asio.
