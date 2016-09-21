@@ -1,21 +1,18 @@
 ---
 layout: project
-title:  "YOUR PROJECT NAME"
-date:   2014-04-25 16:54:46
-author: Marcel Newman
+title:  "Openstack4j Shell"
+date:   2016-06-01 16:54:46
+author: Vinod Borole
 categories:
 - project
-img: portfolio_04.jpg
+img: 4jshell.jpg
 thumb: thumb02.jpg
 carousel:
 - single01.jpg
 - single02.jpg
 - single03.jpg
-client: Wonder Corp.
-website: http://blacktie.co
+client: 
+website: https://github.com/vinodborole/openstack4j-shell
 ---
-####YOUR PROJECT NAME
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-
-####Our Proposal
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+####Openstack4j Shell
+This project was started with a thought of having an easy automation tool to interact with Openstack. Considering the challenges one has with existing Openstack CLI, this tool offers a very good starting point in overcoming those challenges. More info: http://gslab.com/blogs?view=entry&id=53
