@@ -1,11 +1,11 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SOLID.
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: GS Lab.
+description: "Open Source  @ GS Lab"
 analytics: UA-50546869-2
-baseurl: "/solid-jekyll" #important: start with /
-url: "http://st4ple.github.io"
+baseurl: "/opensource" #important: start with /
+url: "http://vinodborole.github.com/opensource"
 
 # Build settings
 markdown: kramdown
@@ -41,9 +41,8 @@ social:
 address:
   - lines: 
     - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
+    - 23890, India,
+email: help@gslab123.com
 tel: +34 8493-4893
 
 
@@ -100,7 +99,7 @@ clients:
     img: client04.png
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "We are committed to driving the growth of open source technologies, expanding the development of open standards and investing resources to provide for sustainable innovation."
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
