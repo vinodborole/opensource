@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Openstack4j
+title:  "Openstack4j"
 date:   2016-01-20 16:54:46
 author: Vinod Borole
 categories:
