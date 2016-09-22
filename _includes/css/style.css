@@ -30,7 +30,7 @@ body {
 	height: 100%; 
 	color: {{ site.colors.secondary }};
 	font-family: 'Raleway', sans-serif;
-	font-weight: 400;
+	/*font-weight: 400;*/
 	}
 
 h1, h2, h3, h4, h5, h6 {
@@ -107,17 +107,19 @@ a:focus {
 
 .navbar-brand {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 900;
+	/*font-weight: 900;*/
 }
 
 .navbar-header .navbar-brand {
 	color: white;
+	font-size: x-large;
+    	/*font-weight: 400;*/
 }
 
 .navbar-default .navbar-nav > li > a {
 	color: white;
-	font-weight: 700;
-	font-size: 12px;
+	/*font-weight: 700;
+	font-size: 12px;*/
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -140,8 +142,8 @@ a:focus {
 
 .dropdown-menu > li > a {
 	color: white;
-	font-weight: 700;
-	font-size: 12px;
+	/*font-weight: 700;
+	font-size: 12px;*/
 }
 
 .btn-theme {
@@ -228,7 +230,7 @@ a:focus {
 
 #headerwrap h3, h5 {
 	color: white;
-	font-weight: 400;
+	/*font-weight: 400;*/
 }
 
 #headerwrap h1 {
@@ -424,7 +426,7 @@ a:focus {
 
 .ctitle {
 	color: {{ site.colors.primary }};
-	font-weight: 700;
+	/*font-weight: 700;*/
 	margin-bottom: 15px;
 }
 
