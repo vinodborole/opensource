@@ -8,7 +8,7 @@ categories:
 - Authentication
 - Code-Snippets
 img: OTP_Library.png
-thumb:
+thumb: thumb02.jpg
 ---
 
 Many organizations today still struggle with providing strong authentication for their web-based applications. Most organizations continue to rely solely on passwords for user authentication, which tend to be weak (to be easy to memorize), shared across systems, etc. Though there have been strides towards strong authentication mechanism like 2FA, adoptance has been low.<!--more-->
