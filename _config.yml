@@ -1,7 +1,7 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: GS Lab
+title: Opensource at GS Lab
 description: "Open Source  @ GS Lab"
 analytics: UA-50546869-2
 baseurl: "/opensource" #important: start with /
@@ -27,11 +27,11 @@ colors:  #in hex code if not noted else
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
   - title: linkedin
-    url:
+    url: https://www.linkedin.com/company/gs-lab
   - title: facebook
-    url:
+    url: https://www.facebook.com/LifeAtGSLab
   - title: twitter
-    url: 
+    url: https://twitter.com/_gslab
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
@@ -49,7 +49,7 @@ tel: +91 20 4671 1000
 members:
   - name: Vinod Borole
     position: Associate Architect
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    text: Member of ContainX org (Asia) responsible for managing openstack4j contributions.
     img: Vinod_Borole_new.jpg
     social:
       - title: envelope #use for email address
@@ -58,7 +58,7 @@ members:
         url: http://twitter.com/handle
   - name: Shital Patil
     position: Senior Software Engineer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    text: Frequent committer for openstack4j project.
     img: Shital_Patil_.jpg
     social:
       - title: envelope #use for email address
@@ -67,7 +67,7 @@ members:
         url: http://twitter.com/handle
   - name: Sumit Gandhi
     position: Software Engineer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    text: Frequent committer for openstack4j project.
     img: Sumit_Gandhi_.jpg
     social:
       - title: envelope #use for email address
@@ -76,7 +76,7 @@ members:
         url: http://twitter.com/handle
   - name: Abdul Waheed
     position: Software Engineer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    text: Frequent committer for OTP Manager project.
     img: Abdul_Waheed_.jpg
     social:
       - title: envelope #use for email address
