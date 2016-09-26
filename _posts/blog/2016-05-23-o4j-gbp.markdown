@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Fluent API Client for Openstack - Group Based Policy"
+date: 2016-05-23 16:54:46
+author: Vinod Borole
+categories: 
+- blog 
+- Openstack
+- Openstack4j
+img: o4j-gbp.png
+thumb: thumb01.jpg
+---
+With the popularity of Openstack and growing community-based initiative in more than hundred countries; there is a major community-based initiative by thousands of contributors. It's time to focus on real challenges that involve deployment and delivery of applications and services with flexibility, security, speed and scale rather than just orchestration of infrastructure components. In order to achieve this there is a need for a declarative policy engine. One such project is Group Based policy.<!--more-->
+
+The advantage we get in using Group-Based Policy (GBP) framework is the abstraction that it has which reduces the complexity for any developer to configure network, security for its infrastructure. More over these abstractions are general enough to apply to computing and storage resources as well.
+
+The different sets of components that form GBP are elaborated in the figure above.
+
+#### Openstack4j Popularity
+OpenStack4j is an open source Openstack client which allows provisioning and control of an OpenStack system. This library has gain quite popularity in the open source/java community for the simple reason that it has the most fluent API’s available to interact with Openstack.
+
+It also lists in the Openstack official [wiki][wiki-lnk] as the java library to interact with Openstack
+
+#### Support for GBP in Openstack4j
+As openstack4j was the most widely used library amongst the developer community it was a good idea to have the support for GBP as well. With its simplistic fluent API and intelligent error handling the experience of interacting Openstack has been made its easy.
+
+#### Example code to interact with GBP:
+Policy Actions
+
+PolicyAction policyAction = Builders.policyAction()
+.name("all-action")
+.actionType(PolicyActionProtocol.ALLOW)
+.description("all-action")
+.build();
+policyAction=osClientv2.gbp().policyAction().create(policyAction);
+
+Reference:
+* [Openstack4j][o4j-lnk]
+* [Openstack4j Git][o4j-git-lnk]
+
+
+[wiki-lnk]: https://wiki.openstack.org/wiki/SDKs
+[o4j-lnk]: http://www.openstack4j.com/
+[o4j-git-lnk]: https://github.com/ContainX/openstack4j
