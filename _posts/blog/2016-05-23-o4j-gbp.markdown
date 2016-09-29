@@ -7,10 +7,10 @@ categories:
 - blog 
 - Openstack
 - Openstack4j
-img: o4j-gbp.png
+img:
 thumb: thumb01.jpg
 ---
-With the popularity of Openstack and growing community-based initiative in more than hundred countries; there is a major community-based initiative by thousands of contributors. It's time to focus on real challenges that involve deployment and delivery of applications and services with flexibility, security, speed and scale rather than just orchestration of infrastructure components. In order to achieve this there is a need for a declarative policy engine. One such project is Group Based policy.<!--more-->
+With the popularity of Openstack and growing community-based initiative in more than hundred countries; there is a major community-based initiative by thousands of contributors. It's time to focus on real challenges that involve deployment and delivery of applications and services with flexibility, security, speed and scale rather than just orchestration of infrastructure components. In order to achieve this there is a need for a declarative policy engine. One such project is Group Based policy.[Read More][read-more-lnk]  
 
 The advantage we get in using Group-Based Policy (GBP) framework is the abstraction that it has which reduces the complexity for any developer to configure network, security for its infrastructure. More over these abstractions are general enough to apply to computing and storage resources as well.
 
@@ -42,3 +42,4 @@ Reference:
 [wiki-lnk]: https://wiki.openstack.org/wiki/SDKs
 [o4j-lnk]: http://www.openstack4j.com/
 [o4j-git-lnk]: https://github.com/ContainX/openstack4j
+[read-more-lnk]: http://gslab.com/blogs?view=entry&id=52
