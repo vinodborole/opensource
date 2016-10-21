@@ -54,8 +54,8 @@ members:
     social:
       - title: envelope #use for email address
         url: mailto:vinod.borole@gslab.com
-      - title: twitter
-        url: http://twitter.com/handle
+      - title: link
+        url: https://in.linkedin.com/in/vinodborole
   - name: Shital Patil
     position: Senior Software Engineer
     text: Frequent committer for openstack4j project.
